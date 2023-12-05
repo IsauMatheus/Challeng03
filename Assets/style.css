@@ -1,0 +1,87 @@
+body{
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    background-color: #313643;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center ;
+    width: 110px;
+    margin: 10px;
+    border: 1px solid #666;
+    color: #ddd;
+    padding: 5px;
+    text-decoration: none;
+}
+.section-primary{
+    width: 100%;
+    height:500px ;
+    background-image: url("https://picsum.photos/seed/picsum/1699/400");
+    background-position: center;
+    background-size: cover;
+}
+.section-2{
+    width: 100%;
+    height:500px ;
+    background-image: url("https://img.freepik.com/fotos-gratis/estrada-perto-de-uma-montanha-gramada-sob-um-ceu-azul_181624-2368.jpg?w=1380&t=st=1701302719~exp=1701303319~hmac=0f3bb7096fc9d57e7d13924bbb783893fb22adb47dbeb255e9156cb3b1e576aa");
+    background-position: center;
+    background-size: cover;
+    margin-top: 80PX;
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+h1, h4{
+    text-shadow: 1px 1px black;
+}   
+
+.col-lg{
+    background-color: #ddd;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: center;
+}
+.section-3{
+    width: 100%;
+    height:auto;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1302/countryside-natural_scenery_widescreen_wallpaper_1366x768.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 80PX;
+    padding: 100px;
+}
+.con-2{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+}
+@media(max-width:419px){
+    footer{
+        text-align: center;
+    }
+}
